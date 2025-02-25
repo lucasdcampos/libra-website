@@ -1,0 +1,53 @@
+a {
+    color: blue;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+.download-area {
+    background-color: #e8f5e9;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 1.5rem;
+    flex: 1;
+    text-align: center;
+}
+
+.download-area h2 {
+    margin-bottom: 1rem;
+}
+
+.download-area p {
+    margin-bottom: 1rem;
+}
+
+.download-area button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-area button a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.code-example {
+    background-color: #212521;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    color: #439712;
+    font-size: 15px;
+}
